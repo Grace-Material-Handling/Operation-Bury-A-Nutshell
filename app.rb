@@ -18,4 +18,6 @@ loop do
 end
 
 # Print backup link to console
+puts "########################################################################"
 puts "You can download this backup at #{backup['file']['uri']}."
+puts "########################################################################"
